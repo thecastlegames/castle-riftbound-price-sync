@@ -30,6 +30,6 @@ jobs:
           SHOPIFY_API_VERSION: "2026-04"
           TCGCSV_CATEGORY_ID: "89"
           TCGCSV_USER_AGENT: "CastleGamesRiftboundPriceSync/1.0"
-          ENABLE_LIVE_UPDATES: "false"
-          COMMERCIAL_USE_CONFIRMED: "false"
+          ENABLE_LIVE_UPDATES: "true"
+          COMMERCIAL_USE_CONFIRMED: "true"
         run: python price_sync.py
